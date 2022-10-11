@@ -7,7 +7,7 @@
    | **DDRB** | **PORTB** | **Direction** | **Internal pull-up resistor** | **Description** |
    | :-: | :-: | :-: | :-: | :-- |
    | 0 | 0 | input  |  no | Tri-state, high-impedance |
-   | 0 | 1 | input  | yes | |
+   | 0 | 1 | input  | yes | activation of pull-up resistor |
    | 1 | 0 | output |  no | output low|
    | 1 | 1 | output |  no | output high |
 
@@ -17,9 +17,9 @@
 
    | **Version** | **Size [B]** |
    | :-- | :-: |
-   | Arduino-style     |  |
-   | Registers         |  |
-   | Library functions |  |
+   | Arduino-style     | 480 |
+   | Registers         | 182 |
+   | Library functions | 182 |
 
 ### Traffic light
 
