@@ -1,4 +1,4 @@
-# Lab 5: INSERT_YOUR_FIRSTNAME INSERT_YOUR_LASTNAME
+# Lab 5: Dominik Vaško
 
 ### Analog-to-Digital Conversion
 
@@ -7,11 +7,11 @@
    | **Push button** | **PC0[A0] voltage** | **ADC value (calculated)** | **ADC value (measured)** | **ADC value (measured, hex)** |
    | :-: | :-: | :-: | :-: | :-: |
    | Right  | 0&nbsp;V | 0   | 0 | 0 |
-   | Up     | 0.495&nbsp;V | 101 |  |  |
-   | Down   | 1.203&nbsp;V | 246 |  |  |
-   | Left   | 1.967 V | 402 |  |  |
-   | Select | 3.181 V | 651 |  |  |
-   | none   | 5V | 1023 |  |  |
+   | Up     | 0.495&nbsp;V | 101 | 100 | 64 |
+   | Down   | 1.203&nbsp;V | 246 | 257 | 101 |
+   | Left   | 1.967 V | 402 | 410 | 19a |
+   | Select | 3.181 V | 651 | 640 | 280 |
+   | none   | 5V | 1023 | 1023 | 3ff |
 
 ### Temperature meter
 
@@ -19,8 +19,8 @@ Consider an application for temperature measurement. Use analog temperature sens
 
 2. Draw a schematic of temperature meter. The image can be drawn on a computer or by hand. Always name all components and their values.
 
-   ![your figure]()
+   ![your figure](https://github.com/domo2361/digital-electronics-2/blob/main/lab5-adc/obrazky/meter.jpg)
 
 3. Draw two flowcharts for interrupt handler `TIMER1_OVF_vect` (which overflows every 1&nbsp;sec) and `ADC_vect`. The image can be drawn on a computer or by hand. Use clear descriptions of the individual steps of the algorithms.
 
-   ![your figure]()
+   ![your figure](https://github.com/domo2361/digital-electronics-2/blob/main/lab5-adc/obrazky/TIMER1.jpg)
