@@ -112,7 +112,7 @@ ISR(TIMER1_OVF_vect)
       uart_puts(".");
       itoa(air.temp_dec, string, 10);
       uart_puts(string);
-      uart_puts("\r\n");
+      uart_puts("°C\r\n");
     }
 
 
